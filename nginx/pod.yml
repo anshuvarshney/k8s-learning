@@ -5,8 +5,8 @@ metadata:
   namespace: dev
 spec:
   containers:
-    -name: pods-sleep
-    image: busybox
-    command:
-      - sleep
-      - '3600'
+    - name: pods-sleep
+      image: busybox
+      command:
+        - sleep
+        - '3600'
