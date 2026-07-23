@@ -1,0 +1,12 @@
+kind: Pod
+apiVersion: v1
+metadata:
+  name: nginx-pod
+  Namespace: nginx
+spec:
+  containers:
+    -name: pods-sleep
+    image: busybox
+    command:
+      - sleep
+      - '3600'
