@@ -2,7 +2,7 @@ apiVersion: v1
 kind: v1
 metadata:
   name: nginx-pod
-  Namespace: nginx
+  Namespace: dev
 spec:
   containers:
     -name: pods-sleep
